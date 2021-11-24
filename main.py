@@ -21,5 +21,5 @@ fig = go.Figure()
 fig.add_trace(go.Scatter(x=random_x, y=random_y0,
                     mode='markers',
                     name='lines'))
-
+fig.update_layout(plot_bgcolor='white',paper_bgcolor='skyblue',font=dict(size=18))
 fig.show()
