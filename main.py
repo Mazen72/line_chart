@@ -19,7 +19,7 @@ random_y2 = np.random.randn(N) - 5
 # Create traces
 fig = go.Figure()
 fig.add_trace(go.Scatter(x=random_x, y=random_y0,
-                    mode='lines',
+                    mode='markers',
                     name='lines'))
 
 fig.show()
